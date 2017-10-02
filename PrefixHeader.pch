@@ -1,0 +1,56 @@
+//
+//  PrefixHeader.pch
+//  CheckIn
+//
+//  Created by ananadmahajan on 2/15/16.
+//  Copyright © 2016 ananadmahajan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AppManager.h"
+#import "BaseViewController.h"
+#import "FontsAndColors.h"
+#import "CabsAPI.h"
+#import "VVBaseUserDefaults.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//for loggin
+
+#ifdef DEBUG
+#define SSLog( s, ... ) NSLog( @"<%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define SSLog( s, ... )
+#endif
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "NSString+checkEmpty.h"
+#import "UIColor+hexAdditions.h"
+#import "NSString+StringSizeWithFont.h"
+#import "LanguageManager.h"
+#import <Smartling.i18n/SLLocalization.h>
+#import "Constants.h"
+#import "FontsAndColors.h"
+#import "APIConstants.h"
+
+
+#define SSLocalizedString(key,comment) [LanguageManager get:key alter:comment]
+#define SSPluralizedString(key, n, comment) ({ \
+[LanguageManager getPluralizedString:key  withNumber:SL_FLOATVALUE(n) alter:@""]; })
+
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s(%p) %@", __PRETTY_FUNCTION__, self, [NSString stringWithFormat:__VA_ARGS__])
+#endif
+
+#endif /* CabWala_pch */
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#endif /* PrefixHeader_pch */

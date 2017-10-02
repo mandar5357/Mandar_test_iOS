@@ -1,0 +1,262 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.0.5)
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - CMDQueryStringSerialization (0.4.1):
+    - ISO8601
+  - EDStarRating (1.1)
+  - Fabric (1.6.5)
+  - FBSDKCoreKit (4.4.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.4.0)
+    - FBSDKCoreKit/no-arc (= 4.4.0)
+  - FBSDKCoreKit/arc (4.4.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.4.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.4.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.4.0):
+    - FBSDKCoreKit
+  - FMDB/common (2.5)
+  - FMDB/standalone (2.5):
+    - FMDB/common
+    - FMDB/standalone/default (= 2.5)
+  - FMDB/standalone/default (2.5):
+    - FMDB/common
+    - sqlite3
+  - FormatterKit (1.8.0):
+    - FormatterKit/AddressFormatter (= 1.8.0)
+    - FormatterKit/ArrayFormatter (= 1.8.0)
+    - FormatterKit/ColorFormatter (= 1.8.0)
+    - FormatterKit/LocationFormatter (= 1.8.0)
+    - FormatterKit/NameFormatter (= 1.8.0)
+    - FormatterKit/OrdinalNumberFormatter (= 1.8.0)
+    - FormatterKit/TimeIntervalFormatter (= 1.8.0)
+    - FormatterKit/UnitOfInformationFormatter (= 1.8.0)
+    - FormatterKit/URLRequestFormatter (= 1.8.0)
+  - FormatterKit/AddressFormatter (1.8.0)
+  - FormatterKit/ArrayFormatter (1.8.0)
+  - FormatterKit/ColorFormatter (1.8.0)
+  - FormatterKit/LocationFormatter (1.8.0)
+  - FormatterKit/NameFormatter (1.8.0)
+  - FormatterKit/OrdinalNumberFormatter (1.8.0)
+  - FormatterKit/TimeIntervalFormatter (1.8.0)
+  - FormatterKit/UnitOfInformationFormatter (1.8.0)
+  - FormatterKit/URLRequestFormatter (1.8.0)
+  - Google/Analytics (1.3.2):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (1.3.2):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - Google/SignIn (1.3.2):
+    - Google/Core
+    - GoogleSignIn (~> 2.0)
+  - GoogleAnalytics (3.14.0)
+  - GoogleAppUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleAuthUtilities (1.0.1):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleInterchangeUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSignIn (2.4.0):
+    - GoogleAppUtilities (~> 1.0)
+    - GoogleAuthUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.0.3)
+  - GoogleUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0.0)
+  - GROAuth2SessionManager (0.2.3):
+    - AFNetworking (~> 2.5.0)
+  - HNKGooglePlacesAutocomplete (1.1.1):
+    - HNKGooglePlacesAutocomplete/Models (= 1.1.1)
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKGooglePlacesAutocomplete/Models (1.1.1):
+    - HNKGooglePlacesAutocomplete/Models/Networking (= 1.1.1)
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKGooglePlacesAutocomplete/Models/Networking (1.1.1):
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKServerFacade (0.3.0):
+    - AFNetworking (~> 2.5)
+  - ISO8601 (0.5.0)
+  - ISO8601DateFormatter (0.7)
+  - JVFloatLabeledTextField (1.1.0)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+  - MarqueeLabel (2.5.0)
+  - Masonry (0.6.2)
+  - MKFoundationKit/NSNumber (1.3.0)
+  - MKUnits (2.2.1):
+    - MKFoundationKit/NSNumber (>= 1.2.0)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - Reachability (3.2)
+  - RegExCategories (1.0)
+  - RNLoadingButton (0.0.1)
+  - SBJson4 (4.0.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - Smartling.i18n (1.0.9)
+  - sqlite3 (3.8.10.2):
+    - sqlite3/common (= 3.8.10.2)
+  - sqlite3/common (3.8.10.2)
+  - STPopup (1.6.0)
+  - SWRevealViewController (2.3.0)
+  - SZTextView (1.2.1)
+  - TPKeyboardAvoiding (1.2.11)
+  - TwitterCore (1.15.0):
+    - Fabric
+  - TwitterKit (1.15.0):
+    - TwitterCore (= 1.15.0)
+  - XLPagerTabStrip (2.0.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.0.1)
+  - AFNetworkActivityLogger (= 2.0.4)
+  - AFNetworking (= 2.5.4)
+  - CMDQueryStringSerialization (= 0.4.1)
+  - EDStarRating
+  - Fabric
+  - FBSDKCoreKit (= 4.4.0)
+  - FBSDKLoginKit (= 4.4.0)
+  - FBSDKShareKit (= 4.4.0)
+  - FMDB/standalone (= 2.5)
+  - FormatterKit (= 1.8.0)
+  - Google/Analytics
+  - Google/SignIn
+  - GROAuth2SessionManager (from `https://github.com/Vivino/GROAuth2SessionManager.git`,
+    commit `ab9d3de93c3c7fa9b29392fb786ce01fc5ab2fec`)
+  - HNKGooglePlacesAutocomplete (from `https://github.com/anandmahajan/HNKGooglePlacesAutocomplete.git`,
+    commit `ce41b2b`)
+  - ISO8601DateFormatter (= 0.7)
+  - JVFloatLabeledTextField
+  - Mantle (= 2.0.6)
+  - MarqueeLabel
+  - Masonry (= 0.6.2)
+  - MKUnits (= 2.2.1)
+  - NJKWebViewProgress (= 0.2.3)
+  - Reachability (= 3.2)
+  - RegExCategories (= 1.0)
+  - RNLoadingButton (= 0.0.1)
+  - SBJson4 (= 4.0.2)
+  - SDWebImage (= 3.7.3)
+  - Smartling.i18n (= 1.0.9)
+  - sqlite3 (= 3.8.10.2)
+  - STPopup
+  - SWRevealViewController (~> 2.3)
+  - SZTextView
+  - TPKeyboardAvoiding (~> 1.2.3)
+  - TwitterCore (= 1.15.0)
+  - TwitterKit (= 1.15.0)
+  - XLPagerTabStrip (= 2.0.0)
+
+EXTERNAL SOURCES:
+  GROAuth2SessionManager:
+    :commit: ab9d3de93c3c7fa9b29392fb786ce01fc5ab2fec
+    :git: https://github.com/Vivino/GROAuth2SessionManager.git
+  HNKGooglePlacesAutocomplete:
+    :commit: ce41b2b
+    :git: https://github.com/anandmahajan/HNKGooglePlacesAutocomplete.git
+
+CHECKOUT OPTIONS:
+  GROAuth2SessionManager:
+    :commit: ab9d3de93c3c7fa9b29392fb786ce01fc5ab2fec
+    :git: https://github.com/Vivino/GROAuth2SessionManager.git
+  HNKGooglePlacesAutocomplete:
+    :commit: ce41b2b
+    :git: https://github.com/anandmahajan/HNKGooglePlacesAutocomplete.git
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 8312778b6815578e6a86d630fbcf31dc94c534e7
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  CMDQueryStringSerialization: 4bb0a2f5e7d8d8678d911d88072274952cbef4e5
+  EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
+  Fabric: 338ffd3c2afcab120638907b4251189de9ad17b3
+  FBSDKCoreKit: 75bdd75c980e811db218488d99dd93b7740f4474
+  FBSDKLoginKit: 02a9254a4c132412fa03577b0d53e936d068a7fb
+  FBSDKShareKit: a42865f20ba2d1cc548c4d0f73ad22cff6377ddb
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  FormatterKit: bddde83e054edf9d9ee14f9de3b3a5103db256f4
+  Google: 97618e118111b998cce1d8dd1bd98b82301d72db
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleAppUtilities: c01c6a5671e9da8b9d690fdaec5959d6c2aac699
+  GoogleAuthUtilities: 049ffd3a297cdffd271451b82fd4e75304f15ef3
+  GoogleInterchangeUtilities: d7f7174176fbcf9710f696f1acebad4dbd98ac03
+  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
+  GoogleSignIn: 79929b51e6299c69f1197bbd9c7a1367d523ecd8
+  GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
+  GoogleUtilities: 8ed9134debe11719097881711464752900668f10
+  GROAuth2SessionManager: 1dc8fce2c00b2e3531c0188fd9cfde5c2923d59d
+  HNKGooglePlacesAutocomplete: 9ea25934150dda72ed9818a1ebc985b1aa9e4832
+  HNKServerFacade: 0fa3839353480b8862563a34903ad1406a38b4c9
+  ISO8601: 25d7a973fa8daf31a50bbd0401d2e7b98e8a7df3
+  ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
+  JVFloatLabeledTextField: ea4a3d8387ddd43724c472bb2b8ab39b79af05d4
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  MarqueeLabel: 6b8ff6915c0536c5099ac30992b7d72f9807df20
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MKFoundationKit: 26afe1cf63d4982a937d555537ca1a3fb50a9c77
+  MKUnits: 1eaaa635ae476d8d124ff5dd2777bd09a7b50da7
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+  RNLoadingButton: edcf6cd965509625f79318a8a5477b1293435698
+  SBJson4: b64afe0d4607e9e339b6d7538b04611e756f71db
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  Smartling.i18n: 9a9e863424b53742a05d58c8b48904a94c8cb428
+  sqlite3: 5e6797834b321b0926250b89315b8516ce1c58f6
+  STPopup: 7975883c48560e4cb16ea1c6f351312ed2cd2bc0
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  SZTextView: 906df45afd3c1b24fc5252088d5ef8061513c238
+  TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
+  TwitterCore: 9d9a41696684888563acc272e80ec3e33c9d18f7
+  TwitterKit: d99c16a48dbe22a950edf9135527c494ad36daaa
+  XLPagerTabStrip: 2c69b8e3208432a94e713c198ce597faad5a87bb
+
+COCOAPODS: 0.39.0
